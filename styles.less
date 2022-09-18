@@ -1,0 +1,101 @@
+html {
+  font-size: 12px;
+}
+
+.tree-view {
+  font-size: 13px;
+}
+
+atom-text-editor.editor {
+  text-rendering: optimizeLegibility;
+}
+
+atom-text-editor.editor .wrap-guide {
+  visibility: hidden;
+}
+
+atom-text-editor {
+  padding-top: 10px;
+}
+
+.syntax--entity.syntax--other.syntax--attribute-name,
+.syntax--entity.syntax--twig,
+.syntax--function.syntax--php,
+.syntax--variable.syntax--language,
+.syntax--constant.syntax--js,
+.syntax--type.syntax--function,
+.syntax--storage.syntax--type.syntax--class,
+.syntax--type.syntax--var,
+.syntax--meta.syntax--parameters,
+.syntax--keyword.syntax--control,
+.syntax--modifier,
+.syntax--comment {
+  font-style: italic;
+  font-size: 1em;
+}
+.syntax--string.syntax--quoted,
+.syntax--string.syntax--regexp {
+  -webkit-font-feature-settings: "liga" off, "calt" off;
+}
+.syntax--operator,
+.syntax--type.syntax--function.syntax--arrow,
+.syntax--punctuation.syntax--comment {
+  font-family: "Hasklig";
+}
+
+
+// NATIVE UI THEME - CUSTOM STYLES
+
+.theme-native-ui {
+
+  .icon:before {
+    opacity: 0.75;
+  }
+
+  atom-workspace-axis.vertical .tab-bar {
+
+    .tab {
+      padding: 0;
+      background-color: #BDBBBD;
+
+      &:hover {
+        background-color: #B3B1B3;
+      }
+
+      .title {
+        font-size: 13px;
+        line-height: 20px;
+        padding: 5px 0;
+      }
+
+      .icon:before {
+        opacity: 0.35;
+      }
+
+      &:hover .close-icon, {
+        top: 5px;
+      }
+
+      &.modified:not(:hover) .close-icon {
+        top: 12px;
+      }
+    }
+  }
+  atom-panel-container .tab-bar {
+
+    .tab {
+      padding: 0;
+
+      .title {
+        font-size: 12px;
+        line-height: 20px;
+        opacity: 0.5;
+        padding: 5px 0;
+      }
+
+      .icon:before {
+        top: 2px;
+      }
+    }
+  }
+}

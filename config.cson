@@ -1,0 +1,120 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "b2132a3c-9e43-4a64-819e-cc5a3150e3a6"
+  "atom-package-deps":
+    ignored: []
+  "autocomplete-paths":
+    enableHtmlSupport: true
+    ignoreSubmodules: true
+    ignoredPatterns: [
+      "node_modules"
+    ]
+  autoprefixer:
+    runOnSave: true
+  core:
+    automaticallyUpdate: false
+    closeDeletedFileTabs: true
+    customFileTypes:
+      "text.html.twig": [
+        "html"
+      ]
+    disabledPackages: [
+      "linter-eslint"
+      "linter-htmlhint"
+      "linter-markdown"
+      "linter-mixed-indent"
+      "linter-php"
+      "linter-stylelint"
+      "linter-twig"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      "node_modules"
+    ]
+    projectHome: "/Users/jalenconner/Projects"
+    restorePreviousWindowsOnStart: "no"
+    telemetryConsent: "limited"
+    themes: [
+      "native-ui"
+      "cobalt2-syntax"
+    ]
+    titleBar: "custom-inset"
+  editor:
+    autoIndentOnPaste: false
+    fontFamily: "Operator Mono SSm"
+    invisibles:
+      eol: " "
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "971b39b3-f542-abab-e5b7-1a51b6eab907"
+  "file-icons":
+    coloured: false
+  "gist-it":
+    newGistsDefaultToPrivate: true
+    userToken: "2da3c7eccc51f0a494ad19f688fdcc4407050cdd"
+  "git-diff":
+    showIconsInEditorGutter: true
+  "linter-eslint": {}
+  "linter-mixed-indent":
+    forceIndentationType: "spaces"
+  "linter-stylelint":
+    disableWhenNoConfig: false
+    useStandard: true
+  "linter-twig": {}
+  "linter-ui-default":
+    decorateOnTreeView: "Files and Directories"
+    gutterPosition: "Left"
+    panelHeight: 250
+  "markdown-preview":
+    breakOnSingleNewline: true
+  minimap:
+    charHeight: 4
+    charWidth: 2
+    displayPluginsControls: false
+    ignoreWhitespacesInTokens: true
+    scrollAnimation: true
+    textOpacity: 0.2
+  "minimap-linter":
+    markerType: "gutter"
+  "native-ui":
+    ui: {}
+  pigments:
+    autocompleteSuggestionsFromValue: true
+    extendAutocompleteToColorValue: true
+    extendAutocompleteToVariables: true
+  "predawn-ui":
+    colourlessIcons: false
+  "prettier-atom":
+    formatOnSaveOptions:
+      showInStatusBar: true
+    prettierOptions:
+      useTabs: true
+    useEslint: true
+    useStylelint: true
+  "project-manager":
+    alwaysOpenInSameWindow: true
+    ignoreDirectories: "node_modules, vendor, bundle"
+    savePathsRelativeToHome: true
+    showPath: false
+    sortBy: "last modified"
+  "status-bar":
+    fullWidth: false
+  "tree-view":
+    alwaysOpenExisting: true
+    autoReveal: true
+    hideIgnoredNames: true
+    sortFoldersBeforeFiles: false
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
